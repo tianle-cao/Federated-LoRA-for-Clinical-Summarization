@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentialed/raw MIMIC data
+data_raw/
+*.csv.gz
+
+# Processed MIMIC-derived data
+data_processed/
+*.jsonl
+manifest.json
+
+# Experiment outputs
+results/
+*.npz
+
+# Local environment files
+.env
+.DS_Store
